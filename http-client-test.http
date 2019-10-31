@@ -1,7 +1,10 @@
-GET http://localhost:3000/api/v1/articles/1
+### GET request
+GET http://localhost:3000/api/v1/articles/2
 
-###
+### GET request with a dynamic variable
+GET http://localhost:3000/api/v1/articles/{{$randomInt}}
 
+### POST request with json body
 POST http://localhost:3000/api/v1/articles
 Content-Type: application/json
 
@@ -9,5 +12,3 @@ Content-Type: application/json
   "title":"Article 1",
   "body":"This is the body"
 }
-
-###
