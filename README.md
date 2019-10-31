@@ -1,5 +1,3 @@
-# SIMPLE RAILS REST API
-
 This application can be used to test REST API using the [RubyMine HTTP client](https://www.jetbrains.com/help/ruby/http-client-in-product-code-editor.html).
 
 ## Prerequisites
